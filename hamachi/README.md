@@ -111,6 +111,9 @@ kiro@vergil:~/Descargas$
 
 ## 4. Realiza una conexión con SSH y describe detalladamente el proceso que has seguido, incluyendo capturas de pantalla.
 
+En la siguiente página explico paso a paso como configurar y instalar ssh.
+
+[Manual de Instalación y configuración de SSH](https://github.com/xxkiroxx/Seguridad/blob/master/ssh/README.md)
 
 
 ## 5. Describe como utilizar SSHFS en un equipo con Linux Ubuntu para montar un directorio remoto en el sistema local.
