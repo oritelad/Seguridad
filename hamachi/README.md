@@ -115,7 +115,6 @@ kiro@vergil:~/Descargas$
 
 ## 5. Describe como utilizar SSHFS en un equipo con Linux Ubuntu para montar un directorio remoto en el sistema local.
 
-
 ### 5.1 Instalamos shfs con apt-get install shfs
 
 Ahora que hemos instalado sshfs tenemos que utilizarlo atendiendo a su uso, similar a ssh en el
