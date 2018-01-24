@@ -1,3 +1,7 @@
+
+![](img/000.jpg)
+
+
 ## 1- Diseña una red (realiza esquema) en la que se distingan los siguientes elementos (define brevemente cada uno de ellos):
 
 
