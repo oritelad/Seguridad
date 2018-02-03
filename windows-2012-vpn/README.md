@@ -56,7 +56,7 @@ Ya tenemos instalado el `Windows Server 2012`
 
 ![](img/007.png)
 
-## 3. Configuración de las tarjetas de red
+## 3. Configuración de las tarjetas de red<a name="3"></a>
 
 Solo tenemos que ir `cambiar la Configuración de la red`.
 
@@ -66,7 +66,7 @@ Solo tenemos que ir `cambiar la Configuración de la red`.
 
 ![](img/009.png)
 
-### 3.1 Configuración tarjeta de red Externa
+### 3.1 Configuración tarjeta de red Externa<a name="4"></a>
 
 Vamos a la tarjeta de red `Externa` y le damos a `propiedades`.
 
@@ -83,14 +83,14 @@ Vamos a la pestaña de `WINS` y configuramos como tenemos en la imagen.
 ![](img/012.png)
 
 
-### 3.2 Configuración Tarjeta de Red Interna
+### 3.2 Configuración Tarjeta de Red Interna<a name="5"></a>
 
 Solo tenemos que establecer una IP en la tarjeta de red `Interna`
 
 ![](img/013.png)
 
 
-## 4. Instalación del rol de Remote Access.
+## 4. Instalación del rol de Remote Access.<a name="6"></a>
 
 Solo tenemos que ir `administrador del sistema -> Agregar nuevo rol`.
 
@@ -128,7 +128,7 @@ Solo tenemos que ir `administrador del sistema -> Agregar nuevo rol`.
 
 ![](img/022.png)
 
-## 5. Configuración de Enrutamiento y accesso remoto para VPN
+## 5. Configuración de Enrutamiento y accesso remoto para VPN<a name="7"></a>
 
 Tenemos que darle al botón secundario del ratón y le damos a `configurar y habilitar enrutamiento y acceso remoto`
 
@@ -196,7 +196,7 @@ Ya tenemos configurado lo de VPN.
 
 ![](img/038.png)
 
-## 6. Configuración Equipo Cliente para VPN
+## 6. Configuración Equipo Cliente para VPN<a name="8"></a>
 
 Vamos a la configuración de red del equipo cliente y establecemos la siguiente dirección IP.
 
