@@ -1,17 +1,14 @@
 # Windows Server 2012 - VPN
 
+
 - [1. Configuración de la Máquina Virtual](#1)
 - [2. Instalación del Windows Server 2012](#2)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [3. Configuración de las tarjetas de red](#3)
+    - [3.1 Configuración tarjeta de red Externa](#4)
+    - [3.2 Configuración Tarjeta de Red Interna](#5)
+- [4. Instalación del rol de Remote Access.](#6)
+- [5. Configuración de Enrutamiento y accesso remoto para VPN](#7)
+- [6. Configuración Equipo Cliente para VPN](#8)
 
 
 
@@ -178,10 +175,81 @@ Tenemos que darle al botón secundario del ratón y le damos a `configurar y hab
 
 ![](img/033.png)
 
-- 
+- Aceptar el relevo de mensajes DHCP.
+
 ![](img/034.png)
+
+Ya tenemos configurado lo de VPN.
+
+
 ![](img/035.png)
+
+- Seleccionamos `IPv4` y vemos la configuración en la tarjeta de red `Externa`
+
 ![](img/036.png)
+
+- Seleccionamos y le damos propiedades.
+
 ![](img/037.png)
+
+- Vamos a filtros entrantes y vemos los paquetes.
+
 ![](img/038.png)
+
+## 6. Configuración Equipo Cliente para VPN
+
+Vamos a la configuración de red del equipo cliente y establecemos la siguiente dirección IP.
+
 ![](img/039.png)
+
+- Vamos a la configuración para establecer la `VPN`
+
+![](img/040.png)
+
+- Seleccionamos el de `VPN`
+
+![](img/041.png)
+
+- Usar mi conexión con `VPN`
+
+![](img/042.png)
+
+- Seleccionamos la de configurar internet mas tarde.
+
+![](img/043.png)
+
+- Escribimos la IP de nuestra `VPN`
+
+![](img/044.png)
+
+- Vemos que ya podemos darle a conectar.
+
+![](img/045.png)
+
+- Comprobamos que tenemos agregado la nueva configuración de VPN en la red.
+
+![](img/046.png)
+
+- Le damos con el botón secundario del ratón a propiedades a `VPN` y le indicamos lo siguiente que esta en la foto, en la pestaña de `Seguridad`
+
+![](img/047.png)
+
+- Al darle conectar nos muestra un mensaje. No podemos acceder a la VPN.
+
+![](img/048.png)
+
+- Vamos al servidor y creamos un usuario nuevo llamado `prueba` y le damos a propiedades y le damos a la pestaña `marcado` y le damos a permitir accesso.
+
+![](img/049.png)
+
+- Le damos a conectar desde el equipo cliente a la VPN y ya podemos tener conexión.
+
+![](img/050.png)
+
+- Foto de comprobación que está conectado.
+
+![](img/051.png)
+
+- Realizamos el siguiente comando `ipconfig` para ver si establece conexión a la VPN y nos da la ip de intervalo configurado.
+
+![](img/052.png)
