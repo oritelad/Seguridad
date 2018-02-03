@@ -15,6 +15,9 @@
 ![](img/000.png)
 
 
+- **Roberto Hernández Sanabria**
+
+
 ## 1. Configuración de la Máquina Virtual<a name="1"></a>
 
 Tenemos que agregar una nueva máquina virtual en `VirtualBox`.
