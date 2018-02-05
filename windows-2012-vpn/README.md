@@ -15,7 +15,7 @@
 ![](img/000.png)
 
 
-- **Roberto Hernández Sanabria**
+**Roberto Hernández Sanabria**
 
 
 ## 1. Configuración de la Máquina Virtual<a name="1"></a>
